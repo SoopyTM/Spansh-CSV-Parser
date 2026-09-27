@@ -1,0 +1,11 @@
+This is a site that will parse through the Spansh Road to Riches CSV file. I am unsure whether or not it works with other Spansh related CSV files, as i have not used more than the Road to Riches feature. But if not, those features could be added in the future.
+
+You should not need anything installed to use this tool. All you need is a browser, which i assume everyone these days does. 
+
+To use this tool:
+1. Download the CSV file from the Spansh site with the route you would like.
+2. Open `index.html` inside the src directory in your browser.
+3. Click the browse button on the site, and find the CSV file you just downloaded.
+4. Open that file and the table should populate.
+
+You can check off each system/body from the table, and that progress should be saved between your browser sessions (close the browser/tab and your progress should be loaded from where you left off).
