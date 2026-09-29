@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spansh CSV Parser - Expressway to Exomastery</title>
+
+    <link rel="stylesheet" href="../stylesheets/styleSheet.css">
+</head>
+
+<body>
+
+    <main>
+        <p><a href="../index.html">Back to Index</a></p>
+        <h1>Spansh CSV Parser - Expressway to Exomastery</h1>
+
+        <div class="file-input">
+            <label for="csvFile">Select CSV file:</label>
+            <input type="file" id="csvFile" accept=".csv,text/csv">
+
+            <button id="clearSavedData" type="button">
+                Clear Saved Data
+            </button>
+        </div>
+
+        <div id="status" class="status" role="status" aria-live="polite"></div>
+
+        <div class="table-container">
+            <table id="csvTable">
+                <thead>
+                    <tr>
+                        <!-- CSV headers will be inserted here -->
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- CSV data will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="../scripts/expresswayToExomastery.js"></script>
+
+</body>
+</html>
