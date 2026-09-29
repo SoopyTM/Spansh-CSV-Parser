@@ -5,7 +5,8 @@ You should not need anything installed to use this tool. All you need is a brows
 To use this tool:
 1. Download the CSV file from the Spansh site with the route you would like.
 2. Open `index.html` inside the src directory in your browser.
-3. Click the browse button on the site, and find the CSV file you just downloaded.
-4. Open that file and the table should populate.
+3. Select the feature you want to use.
+4. Click the browse button on the site, and find the CSV file you just downloaded.
+5. Open that file and the table should populate.
 
 You can check off each system/body from the table, and that progress should be saved between your browser sessions (close the browser/tab and your progress should be loaded from where you left off).
